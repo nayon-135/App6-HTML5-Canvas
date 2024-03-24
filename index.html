@@ -75,7 +75,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 <div id="content" class="w3-container">
 	<p></p>
 <canvas id="a" width="300" height="225" style="border:1px solid #000000;"> <!--added a canvas and a border-->
-<img id="labmates" src="labmates.jpg" alt="The Labmates" width="20" height="20">
+<img id="lab" src="lab.jpg" alt="The Lab" width="20" height="20">
 </canvas>
 <button class="w3-btn w3-blue" onclick="drawRectangle()">Draw a rectangle</button><!--allows for button to be clicked and show a rectangle-->
 <button class="w3-btn w3-blue" onclick="drawText()">Draw a text</button><!--allows for button to be clicked to show name-->
@@ -98,7 +98,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 }	
 	var c = document.getElementById("a");
 	var ctx = c.getContext("2d");
-	var img = document.getElementById("labmates");
+	var img = document.getElementById("lab");
 	
 	function drawImage(){
 		ctx.drawImage(img, 5, 5);
