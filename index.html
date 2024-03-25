@@ -45,7 +45,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
         		max-width:50%;
         	}
 </style>
-
+<!--Adjusdted the size of the image-->
 
 <style>	
 .body {
@@ -90,14 +90,14 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 		 ctx.fillStyle = "black";//makes rectangle the color black
 		 	ctx.fillRect(90, 100, 150, 100);//this function allows for rectangle to appear
 }
-	var c = document.getElementById("a");
+	var c = document.getElementById("a");//connects functions to canvas
 	var ctx = c.getContext("2d");
 
 	function drawText(){
 		ctx.font = "30px Arial";
 			ctx.fillText("Nayon Lee", 10, 50);//these functions add my name to the canvas
 }	
-	var c = document.getElementById("a");
+	var c = document.getElementById("a");//connects functions to canvas
 	var ctx = c.getContext("2d");
 	var img = document.getElementById("lab");//this adds the image i uploaded to canvas
 	
@@ -105,7 +105,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 		ctx.drawImage(img, 5, 5);//these adjust the size of my image
 }
 	
-	var c = document.getElementById("a");
+	var c = document.getElementById("a");//connects functions to canvas
 	var ctx = c.getContext("2d");
 
 	function clearRect(){
